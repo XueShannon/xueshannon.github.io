@@ -39,77 +39,87 @@
     <div class="wrapper">
       <header>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+        <style>
+          .spacing {
+            margin-bottom: 20px;
+          }
+          .social-icons a {
+            margin: 0 5px 0 0;
+            font-size: 1.2rem;
+            color: inherit;
+            text-decoration: none;
+          }
+          .social-icons a:hover {
+            color: #0077b5;
+          }
+          .research-interests {
+            text-align: left;
+            margin-top: 20px;
+          }
+          .research-interests ul {
+            padding-left: 20px;
+          }
+          .research-interests li {
+            margin-bottom: 10px;
+          }
+        </style>
+      
         {% if site.avatar %}
         <a class="image avatar"><img src="{{ site.avatar }}" alt="avatar" /></a>
         {% endif %}
-
+      
         <h1>{{ site.title }}</h1>
-
+      
         {% if site.position %}
-        <position style="font-size:1.10rem;">{{ site.position }}</position>
-        <br>
+        <p style="font-size:1.10rem;">{{ site.position }}</p>
         {% endif %}
         {% if site.affiliation %}
         <a href="{{ site.affiliation_link }}" rel="noopener"><autocolor>{{ site.affiliation }}</autocolor></a>
-        <br>
+        <div class="spacing"></div>
         {% endif %}
         {% if site.email %}
-        <email>{{ site.email }}</email>
+        <p>{{ site.email }}</p>
         {% endif %}
-
-        <div style="text-align: left;">
+      
+        <div class="research-interests">
           <h2>Research Interests</h2>
           <ul>
-              <li><strong>Wireless Communication:</strong> 5G, Sub-6G, Next-G, O-RAN, AI-RAN</li>
-              <li><strong>Machine Learning:</strong> Federated Learning</li>
-              <li><strong>Security:</strong> Physical Layer Security, Privacy preserving, Distributed security</li>
-              <li><strong>Integrated Sensing and Communication</strong></li>
+            <li><strong>Wireless Communication:</strong> 5G, Sub-6G, Next-G, O-RAN, AI-RAN</li>
+            <li><strong>Machine Learning:</strong> Federated Learning</li>
+            <li><strong>Security:</strong> Physical Layer Security, Privacy preserving, Distributed security</li>
+            <li><strong>Integrated Sensing and Communication</strong></li>
           </ul>
         </div>
-
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        
+      
+        <div class="spacing"></div>
+      
         <div class="social-icons">
-        {% if site.cv_link %}
-        <a style="margin: 0 5px 0 0" href="{{ site.cv_link }}">
-          <i class="ai ai-cv" style="font-size:1.3rem;"></i>
-        </a>
-        {% endif %}
-
-        {% if site.google_scholar %}
-        <a style="margin: 0 5px 0 0" href="{{ site.google_scholar }}">
-          <i class="ai ai-google-scholar" style="font-size:1.2rem"></i>
-        </a>  
-        {% endif %}
-
-        {% if site.orcid %}
-        <a style="margin: 0 5px 0 0" href="{{ site.orcid }}">
-          <i class="fab fa-orcid"></i>
-        </a>
-        {% endif %}
-
-        {% if site.github_link %}
-        <a style="margin: 0 5px 0 0" href="{{ site.github_link }}">
-          <i class="fab fa-github"></i>
-        </a>
-        {% endif %}
-
-        {% if site.linkedin %}
-        <a style="margin: 0 0 0 0" href="{{ site.linkedin }}">
-          <i class="fab fa-linkedin"></i>
-        </a>
-        {% endif %}
+          {% if site.cv_link %}
+          <a href="{{ site.cv_link }}">
+            <i class="ai ai-cv"></i>
+          </a>
+          {% endif %}
+          {% if site.google_scholar %}
+          <a href="{{ site.google_scholar }}">
+            <i class="ai ai-google-scholar"></i>
+          </a>
+          {% endif %}
+          {% if site.orcid %}
+          <a href="{{ site.orcid }}">
+            <i class="fab fa-orcid"></i>
+          </a>
+          {% endif %}
+          {% if site.github_link %}
+          <a href="{{ site.github_link }}">
+            <i class="fab fa-github"></i>
+          </a>
+          {% endif %}
+          {% if site.linkedin %}
+          <a href="{{ site.linkedin }}">
+            <i class="fab fa-linkedin"></i>
+          </a>
+          {% endif %}
         </div>
-        <br>
-        <br>
-
       </header>
       <section>
 
