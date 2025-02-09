@@ -15,8 +15,7 @@ I am a Ph.D. student at ...
 
 ## News
 
-- **[Jan. 2025]** I am on Job Market NOW! Please contact me if you interest.
-- <code style="color : name_color">text</code>
+- **[Jan. 2025]** <code style="color : red">I am on Job Market NOW! Please contact me if you interest!</code>
 - **[Jan. 2025]** New paper submiited!
 - **[Sept. 2019]** Our paper about few-shot learning is accepted to NeurIPS 2019.
 - **[Mar. 2019]** Our paper about few-shot learning is accepted to CVPR 2019.
