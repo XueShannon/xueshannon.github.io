@@ -15,9 +15,9 @@ I am a Ph.D. student at ...
 
 ## News
 
-- **[Jan. 2025]** \textcolor{red}{I am on Job Market NOW! Please contact me if you interest!}
+- **[Jan. 2025]** <span style="color:red;">I am on Job Market NOW! Please contact me if you interest!</span>
 - **[Jan. 2025]** New paper submiited!
-- **[Sept. 2019]** Our paper about few-shot learning is accepted to NeurIPS 2019.
+- **[Aug. 2024]** I am hired as Lecture Instructor, SIT.
 - **[Mar. 2019]** Our paper about few-shot learning is accepted to CVPR 2019.
 
 {% include_relative _includes/publications.md %}
