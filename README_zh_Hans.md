@@ -76,7 +76,7 @@ google_scholar: https://scholar.google.com/
 cv_link: files/Curriculum_Vitae.pdf
 github_link: https://github.com/
 linkedin: https://www.linkedin.com/
-twitter: https://twitter.com/
+orcid: https://orcid.com/
 
 # 图片路径
 avatar: ./assets/img/avatar.png
