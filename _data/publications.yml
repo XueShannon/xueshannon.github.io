@@ -15,7 +15,7 @@ main:
     conference_short: IEEE INFOCOM
     conference: IEEE Conference on Computer Communications <strong>(IEEE INFOCOM)</strong>, 2023.
     pdf: https://arxiv.org/pdf/Secure_Device_Trust_Bootstrapping_Against_Collaborative_Signal_Modification_Attacks.pdf
-    code: https://github.com/MrGiovanni/ContinualLearning
+    #code: https://github.com/MrGiovanni/ContinualLearning
     bibtex: https://bib.yliu.me/MICCAI23.txt
     image: ./assets/img/bootstrapping.png
     notes: Oral Presentation
