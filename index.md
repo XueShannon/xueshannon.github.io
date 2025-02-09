@@ -17,7 +17,7 @@ My research focuses on advancing wireless techniques integrated with Artificial 
 
 - **Infomation System Security(On-Site & WebCampus)**
 - **Applied Machine Learning**
-- **Engineering Design IV)**
+- **Engineering Design (IV)**
 
 
 {% include_relative _includes/publications.md %}
