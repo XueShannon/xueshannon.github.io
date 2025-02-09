@@ -1,9 +1,9 @@
 main:
 
-  - title: Continual Learning for Abdominal Multi-Organ and Tumor Segmentation
-    authors: Yixiao Zhang, Xinyi Li, Huimiao Chen, Alan Yuille, <strong>Yaoyao Liu*</strong>, Zongwei Zhou* (*Corresponding authors)
-    conference_short: MICCAI
-    conference: International Conference on Medical Image Computing and Computer-Assisted Intervention <strong>(MICCAI)</strong>, 2023.
+  - title: Secure Device Trust Bootstrapping Against Collaborative Signal Modification Attacks
+    authors: <strong>Xiaochan Xue</strong>, Shucheng Yu, Min Song
+    conference_short: IEEE INFOCOM
+    conference: IEEE Conference on Computer Communications <strong>(IEEE INFOCOM)</strong>, 2023.
     pdf: https://arxiv.org/pdf/2306.00988.pdf
     code: https://github.com/MrGiovanni/ContinualLearning
     bibtex: https://bib.yliu.me/MICCAI23.txt
