@@ -13,6 +13,13 @@ My research focuses on advancing wireless techniques integrated with Artificial 
 - **Security:** Physical Layer Security, Privacy preserving, Distributed security
 - **Integrated Sensing and Communication**
 
+## News
+
+- **[Jan. 2025]** <span style="color:red;">I am on Job Market NOW! Please contact me if you interest!</span>
+- **[Jan. 2025]** New paper submiited!
+- **[Aug. 2024]** I am hired as Lecture Instructor, SIT.
+- **[Aug. 2023]** I received <span style="color:red;">Excellence Doctoral Felowship</span>, SIT
+
 ## Teaching
 
 - **Infomation System Security (On-Site & WebCampus)**
