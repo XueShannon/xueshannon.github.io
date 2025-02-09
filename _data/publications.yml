@@ -8,7 +8,7 @@ main:
     #page: https://class-il.mpi-inf.mpg.de/mnemonics/
     #bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
     notes: Submitted
-    image: ./assets/img/teaser_example.png
+    image: ./assets/img/breathing.png
 
   - title: Secure Device Trust Bootstrapping Against Collaborative Signal Modification Attacks
     authors: <strong>Xiaochan Xue</strong>, Shucheng Yu, Min Song
