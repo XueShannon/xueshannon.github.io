@@ -38,7 +38,7 @@
   <body>
     <div class="wrapper">
       <header>
-        
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
         {% if site.avatar %}
         <a class="image avatar"><img src="{{ site.avatar }}" alt="avatar" /></a>
         {% endif %}
@@ -84,9 +84,9 @@
         </a>
         {% endif %}
 
-        {% if site.twitter %}
-        <a style="margin: 0 0 0 0" href="{{ site.twitter }}">
-          <i class="fab fa-x-twitter"></i>
+        {% if site.orcid %}
+        <a style="margin: 0 0 0 0" href="{{ site.orcid }}">
+          <i class="fab fa-orcid"></i>
         </a>
         {% endif %}
         </div>
