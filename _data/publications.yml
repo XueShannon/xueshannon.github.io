@@ -16,7 +16,7 @@ main:
     conference: IEEE Conference on Computer Communications <strong>(IEEE INFOCOM)</strong>, 2023.
     pdf: ./assets/files/Secure_Device_Trust_Bootstrapping_Against_Collaborative_Signal_Modification_Attacks.pdf
     #code: https://github.com/MrGiovanni/ContinualLearning
-    bibtex: https://bib.yliu.me/MICCAI23.txt
+    bibtex: https://ieeexplore.ieee.org/abstract/document/10229007
     image: ./assets/img/bootstrapping.png
     notes: Oral Presentation
 
@@ -27,7 +27,7 @@ main:
     pdf: ./assets/files/Over-the-Air_Federated_Learning_with_Enhanced_Privacy.pdf
     #code: https://github.com/yaoyao-liu/class-incremental-learning/tree/main/mnemonics-training
     #page: https://class-il.mpi-inf.mpg.de/mnemonics/
-    bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
+    bibtex: https://ieeexplore.ieee.org/document/10278765
     notes: Oral Presentation
     image: ./assets/img/FL_AirComp.png
 
