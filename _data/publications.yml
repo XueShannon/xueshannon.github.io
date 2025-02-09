@@ -17,7 +17,7 @@ main:
     pdf: https://arxiv.org/pdf/Secure_Device_Trust_Bootstrapping_Against_Collaborative_Signal_Modification_Attacks.pdf
     code: https://github.com/MrGiovanni/ContinualLearning
     bibtex: https://bib.yliu.me/MICCAI23.txt
-    image: ./assets/img/teaser_example_2.png
+    image: ./assets/img/bootstrapping.png
     notes: Oral Presentation
 
   - title: Over-the-Air Federated Learning with Enhanced Privacy
@@ -29,5 +29,5 @@ main:
     #page: https://class-il.mpi-inf.mpg.de/mnemonics/
     bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
     notes: Oral Presentation
-    image: ./assets/img/teaser_example.png
+    image: ./assets/img/FL_AirComp.png
 
