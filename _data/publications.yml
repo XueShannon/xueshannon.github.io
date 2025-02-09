@@ -14,7 +14,7 @@ main:
     authors: <strong>Xiaochan Xue</strong>, Shucheng Yu, Min Song
     conference_short: IEEE INFOCOM
     conference: IEEE Conference on Computer Communications <strong>(IEEE INFOCOM)</strong>, 2023.
-    pdf: https://arxiv.org/pdf/Secure_Device_Trust_Bootstrapping_Against_Collaborative_Signal_Modification_Attacks.pdf
+    pdf: ./assets/img/Secure_Device_Trust_Bootstrapping_Against_Collaborative_Signal_Modification_Attacks.pdf
     #code: https://github.com/MrGiovanni/ContinualLearning
     bibtex: https://bib.yliu.me/MICCAI23.txt
     image: ./assets/img/bootstrapping.png
@@ -24,7 +24,7 @@ main:
     authors: <strong>Xiaochan Xue</strong>, Moh Khalid Hasan, Shucheng Yu, Laxima Niure Kandel, Min Song
     conference_short: IEEE ICC
     conference: IEEE International Conference on Communications <strong>(IEEE ICC)</strong>, 2023.
-    pdf: https://arxiv.org/pdf/Over-the-Air_Federated_Learning_with_Enhanced_Privacy.pdf
+    pdf: ./assets/img/pdf/Over-the-Air_Federated_Learning_with_Enhanced_Privacy.pdf
     #code: https://github.com/yaoyao-liu/class-incremental-learning/tree/main/mnemonics-training
     #page: https://class-il.mpi-inf.mpg.de/mnemonics/
     bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
