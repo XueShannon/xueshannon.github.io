@@ -16,11 +16,13 @@
         top: 0; /* Position at the top of the page */
         width: 100%; /* Full width */
         z-index: 1000; /* Ensure the navbar stays on top of other content */
-        text-align: center; /* Center the content horizontally */
+        display: flex; /* Use Flexbox for layout */
+        justify-content: center; /* Center the content horizontally */
+        align-items: center; /* Center the content vertically */
       }
   
       .navbar ul {
-        display: inline-block; /* Make the list inline-block for centering */
+        display: flex; /* Make the list a flex container */
         list-style-type: none; /* Remove bullet points */
         margin: 0;
         padding: 0;
@@ -51,12 +53,12 @@
   
       /* Responsive design for smaller screens */
       @media screen and (max-width: 600px) {
-        .navbar li {
-          display: block; /* Stack items vertically on small screens */
+        .navbar ul {
+          flex-direction: column; /* Stack items vertically on small screens */
         }
       }
     </style>
-    
+
     <title>{{ site.title }} | {{site.affiliation}}</title>
 
     <meta charset="UTF-8">
