@@ -14,12 +14,16 @@
         overflow: hidden;
         position: fixed; /* Fix the navbar at the top */
         top: 0; /* Position at the top of the page */
-        width: 100%; /* Full width */
+        width: 80%; /* Adjust the width as needed (e.g., 80% of the viewport width) */
+        max-width: 1200px; /* Set a max width to prevent it from becoming too large */
         z-index: 1000; /* Ensure the navbar stays on top of other content */
         height: 100px;
         display: flex; /* Use Flexbox for layout */
         justify-content: center; /* Center the content horizontally */
         align-items: center; /* Center the content vertically */
+        left: 50%;
+        transform: translateX(-50%); /* Center the navbar horizontally */
+        border-radius: 10px; /* Optional: Add rounded corners for aesthetics */
       }
   
       .navbar ul {
