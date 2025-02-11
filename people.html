@@ -5,60 +5,59 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>People - Collaborations & Mentorships</title>
     <style>
-        body {
-            margin: 0;
-            font-family: Arial, sans-serif;
-            padding-top: 60px; /* Add padding to body to avoid content being hidden behind the fixed navbar */
-            background-color: #f4f4f4;
-        }
-        .navbar {
-        background-color: #333;
-        overflow: hidden;
-        position: fixed; /* Fix the navbar at the top */
-        top: 0; /* Position at the top of the page */
-        width: 100%; /* Full width */
-        z-index: 1000; /* Ensure the navbar stays on top of other content */
-        display: flex; /* Use Flexbox for layout */
-        justify-content: center; /* Center the content horizontally */
-        align-items: center; /* Center the content vertically */
-      }
-  
-      .navbar ul {
-        display: flex; /* Make the list a flex container */
-        list-style-type: none; /* Remove bullet points */
-        margin: 0;
-        padding: 0;
-      }
-  
-      .navbar li {
-        display: inline-block; /* Display list items horizontally */
-      }
-  
-      .navbar a {
-        display: block;
-        color: white;
-        text-align: center;
-        padding: 14px 20px;
-        text-decoration: none;
-      }
-  
-      .navbar a:hover {
-        background-color: #575757;
-        color: white;
-      }
-  
-      /* Active link styling */
-      .navbar a.active {
-        background-color: #4CAF50;
-        color: white;
-      }
-  
-      /* Responsive design for smaller screens */
-      @media screen and (max-width: 600px) {
-        .navbar ul {
-          flex-direction: column; /* Stack items vertically on small screens */
-        }
-      }
+        nav {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      background-color: #333;
+      z-index: 1000; /* Ensure it stays on top of other content */
+    }
+
+    /* Center the nav bar content */
+    nav ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 0 auto; /* Center the ul */
+      display: flex;
+      justify-content: center; /* Center the buttons horizontally */
+      max-width: 800px; /* Optional: Limit the width of the nav bar */
+    }
+
+    nav ul li {
+      margin: 0;
+    }
+
+    /* Nav button styling */
+    .nav-button {
+      display: block;
+      padding: 10px 20px;
+      text-decoration: none;
+      color: white;
+      transition: background-color 0.3s;
+    }
+
+    /* Change color on hover */
+    .nav-button:hover {
+      background-color: #555;
+    }
+
+    /* Change color when active (selected) */
+    .nav-button.active {
+      background-color: green; /* Selected color to green */
+    }
+
+    /* Center all other content */
+    body {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      margin: 0;
+      padding-top: 60px; /* Add padding to avoid content being hidden behind the fixed nav bar */
+      font-family: Arial, sans-serif;
+    }
         .container {
             max-width: 900px;
             margin: auto;
@@ -98,12 +97,15 @@
 </head>
 <body>
       <!-- Navigation Bar -->
-    <nav class="navbar">
-        <a class="active" href="http://xueshannon.github.io">Home</a>
-        <a href="publications.html">Publications</a>
-        <a href="people.html">People</a>
-        <a href="./assets/files/CV_Xiaochan.pdf">CV</a>
-    </nav>
+      <nav>
+        <ul>
+          <li><a href="http://xueshannon.github.io" class="nav-button">Home</a></li>
+          <li><a href="publications.html" class="nav-button">Publications</a></li>
+          <li><a href="people.html" class="nav-button">People</a></li>
+          <li><a href="./assets/files/CV_Xiaochan.pdf" class="nav-button">CV</a></li>
+        </ul>
+      </nav>
+
     <div class="container">
         <h1>People</h1>
 
@@ -139,5 +141,15 @@
             </div>
         </div>
     </div>
+    <script>
+        // JavaScript to handle button selection
+        const buttons = document.querySelectorAll('.nav-button');
+        buttons.forEach(button => {
+          button.addEventListener('click', () => {
+            buttons.forEach(btn => btn.classList.remove('active'));
+            button.classList.add('active');
+          });
+        });
+      </script>
 </body>
 </html>
