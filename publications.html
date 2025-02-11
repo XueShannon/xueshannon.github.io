@@ -3,18 +3,69 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Popup Window</title>
+    <title>Publications</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            text-align: center;
+            margin: 20px;
             padding: 20px;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2 {
+            color: #333;
+        }
+        .publication {
+            margin-bottom: 15px;
+            padding: 10px;
+            border-left: 4px solid #007bff;
+            background: #f9f9f9;
+            border-radius: 5px;
+        }
+        .publication a {
+            text-decoration: none;
+            color: #007bff;
+            font-weight: bold;
+        }
+        .publication a:hover {
+            text-decoration: underline;
         }
     </style>
 </head>
 <body>
-    <h2>Welcome to the Popup Page!</h2>
-    <p>This is a separate window opened from the navbar.</p>
-    <button onclick="window.close()">Close</button>
+    <div class="container">
+        <h1>Publication List</h1>
+        
+        <h2>📘 Journal Papers</h2>
+        <div class="publication">
+            <strong>Title:</strong> Secure Federated Learning in Wireless Networks<br>
+            <strong>Authors:</strong> Your Name, Author B, Author C<br>
+            <strong>Journal:</strong> IEEE Transactions on Wireless Communications, 2024<br>
+            <strong>Link:</strong> <a href="https://example.com" target="_blank">Read Paper</a>
+        </div>
+
+        <h2>📙 Conference Papers</h2>
+        <div class="publication">
+            <strong>Title:</strong> mmWave Sensing for Physical Layer Security<br>
+            <strong>Authors:</strong> Your Name, Author D, Author E<br>
+            <strong>Conference:</strong> IEEE INFOCOM, 2024<br>
+            <strong>Link:</strong> <a href="https://example.com" target="_blank">Read Paper</a>
+        </div>
+
+        <h2>📄 Preprints & Others</h2>
+        <div class="publication">
+            <strong>Title:</strong> Privacy-Preserving AI in NextG Networks<br>
+            <strong>Authors:</strong> Your Name, Author X, Author Y<br>
+            <strong>Repository:</strong> arXiv, 2024<br>
+            <strong>Link:</strong> <a href="https://arxiv.org/abs/example" target="_blank">Read Paper</a>
+        </div>
+    </div>
 </body>
 </html>
