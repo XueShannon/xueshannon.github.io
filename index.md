@@ -9,9 +9,11 @@ My research focuses on advancing wireless techniques integrated with Artificial 
 ## Research Interests
 
 - **Wireless Communication:** 5G, Sub-6G, Next-G, O-RAN, AI-RAN
-- **Machine Learning:** Federated Learning
+- **Integrated Sensing and Communication** Sensing for healthcare, Smart city, UAVs, and Vehicles. Distributed devices in cutting-edge network systems
+- **Machine Learning:** Applied area, Federated Learning
 - **Security:** Physical Layer Security, Privacy preserving, Distributed security
-- **Integrated Sensing and Communication**
+
+
 
 ## News
 
