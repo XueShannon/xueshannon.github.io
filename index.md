@@ -4,7 +4,9 @@ layout: homepage
 
 ## About Me
 
-My research focuses on advancing wireless techniques integrated with Artificial Intelligence (AI) and Machine Learning (ML) for 5G, Sub-6G, NextG, and beyond. Throughout my Ph.D. journey, I have concentrated on leveraging Physical Layer Security (PLS) technologies and integrating them with millimeter wave (mmWave) sensing, next-generation wireless networks, and AI to address critical challenges in wireless communication security. Wireless networks, due to their open nature, are vulnerable to eavesdropping, jamming, and spoofing. Unlike traditional cryptography, PLS leverages wireless channel characteristics to provide lightweight, computation-independent security, making it ideal for resource-constrained and low-latency applications. My goal is to enhance the resilience, reliability, and trustworthiness of next-generation wireless networks, enabling robust and secure communication.
+My research focuses on advancing wireless communication by integrating Artificial Intelligence (AI) and Machine Learning (ML) with 5G, Sub-6G, NextG, and beyond. I specialize in enhancing security and efficiency in next-generation networks through Physical Layer Security (PLS), millimeter wave (mmWave) sensing, and AI-driven techniques.
+
+Currently, I work on Integrated Sensing and Communication (ISAC) for real-time, contactless applications and privacy-preserving distributed IoT systems using confidential computing. Additionally, I explore innovations in O-RAN networks, focusing on AI/ML workflows, security challenges, and standardization. My goal is to improve the resilience, reliability, and trustworthiness of future wireless networks, ensuring secure and intelligent connectivity.
 
 ## Research Interests
 
