@@ -5,98 +5,159 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Publications</title>
     <style>
-    nav {
-      position: fixed;
-      top: 0;
-      left: 0;
-      width: 100%;
-      background-color: #333;
-      z-index: 1000; /* Ensure it stays on top of other content */
-    }
+        /* General Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+            line-height: 1.6;
+        }
 
-    /* Center the nav bar content */
-    nav ul {
-      list-style-type: none;
-      padding: 0;
-      margin: 0 auto; /* Center the ul */
-      display: flex;
-      justify-content: center; /* Center the buttons horizontally */
-      max-width: 800px; /* Optional: Limit the width of the nav bar */
-    }
+        /* Navigation Bar */
+        nav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background-color: #333;
+            z-index: 1000;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
 
-    nav ul li {
-      margin: 0;
-    }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0 auto;
+            display: flex;
+            justify-content: center;
+            max-width: 800px;
+        }
 
-    /* Nav button styling */
-    .nav-button {
-      display: block;
-      padding: 10px 20px;
-      text-decoration: none;
-      color: white;
-      transition: background-color 0.3s;
-    }
+        nav ul li {
+            margin: 0;
+        }
 
-    /* Change color on hover */
-    .nav-button:hover {
-      background-color: #555;
-    }
+        .nav-button {
+            display: block;
+            padding: 10px 20px;
+            text-decoration: none;
+            color: white;
+            transition: background-color 0.3s;
+        }
 
-    /* Change color when active (selected) */
-    .nav-button.active {
-      background-color: green; /* Selected color to green */
-    }
+        .nav-button:hover {
+            background-color: #555;
+        }
 
-    /* Center all other content */
-    body {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      min-height: 100vh;
-      margin: 0;
-      padding-top: 60px; /* Add padding to avoid content being hidden behind the fixed nav bar */
-      font-family: Arial, sans-serif;
-    }
+        .nav-button.active {
+            background-color: green;
+        }
+
+        /* Main Content */
         .container {
             max-width: 800px;
-            margin: auto;
+            margin: 80px auto 20px;
             background: white;
-            padding: 20px;
+            padding: 30px;
             border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
         }
+
         h1, h2 {
             color: #333;
+            margin-bottom: 20px;
         }
+
+        h1 {
+            font-size: 2.5rem;
+            text-align: center;
+            color: green;
+        }
+
+        h2 {
+            font-size: 1.8rem;
+            margin-top: 30px;
+            border-bottom: 2px solid green;
+            padding-bottom: 10px;
+        }
+
+        /* Publication Styles */
         .publication {
-            margin-bottom: 15px;
-            padding: 10px;
-            border-left: 4px solid #007bff;
+            margin-bottom: 20px;
+            padding: 15px;
+            border-left: 5px solid green;
             background: #f9f9f9;
             border-radius: 5px;
+            transition: transform 0.2s, box-shadow 0.2s;
         }
+
+        .publication:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .publication strong {
+            color: #333;
+        }
+
         .publication a {
             text-decoration: none;
-            color: #007bff;
+            color: green;
             font-weight: bold;
+            transition: color 0.3s;
         }
+
         .publication a:hover {
+            color: #0077b5;
+            text-decoration: underline;
+        }
+
+        /* Preprint Styles */
+        .publication[data-status="submitted"] {
+            border-left-color: #e67e22;
+        }
+
+        .publication[data-status="submitted"] a {
+            color: #e67e22;
+        }
+
+        .publication[data-status="submitted"] a:hover {
+            color: #d35400;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #333;
+            color: white;
+            margin-top: 40px;
+        }
+
+        footer a {
+            color: green;
+            text-decoration: none;
+        }
+
+        footer a:hover {
             text-decoration: underline;
         }
     </style>
 </head>
 <body>
-      <!-- Navigation Bar -->
-      <nav>
+    <!-- Navigation Bar -->
+    <nav>
         <ul>
-          <li><a href="http://xueshannon.github.io" class="nav-button">Home</a></li>
-          <li><a href="publications.html" class="nav-button">Publications</a></li>
-          <li><a href="people.html" class="nav-button">People</a></li>
-          <li><a href="./assets/files/CV_Xiaochan.pdf" class="nav-button">CV</a></li>
+            <li><a href="http://xueshannon.github.io" class="nav-button">Home</a></li>
+            <li><a href="publications.html" class="nav-button active">Publications</a></li>
+            <li><a href="people.html" class="nav-button">People</a></li>
+            <li><a href="./assets/files/CV_Xiaochan.pdf" class="nav-button">CV</a></li>
         </ul>
-      </nav>
+    </nav>
 
+    <!-- Main Content -->
     <div class="container">
         <h1>Publication List</h1>
         
@@ -109,24 +170,24 @@
         </div>
 
         <div class="publication">
-          <strong>Title:</strong> Over-the-Air Federated Learning with Enhanced Privacy<br>
-          <strong>Authors:</strong> Xiaochan Xue, Moh Khalid Hasan, Shucheng Yu, Laxima Niure Kandel, Min Song<br>
-          <strong>Conference:</strong> ICC 2023-IEEE International Conference on Communications<br>
-          <strong>Link:</strong> <a href="https://ieeexplore.ieee.org/abstract/document/10278765" target="_blank">Read Paper</a>
+            <strong>Title:</strong> Over-the-Air Federated Learning with Enhanced Privacy<br>
+            <strong>Authors:</strong> Xiaochan Xue, Moh Khalid Hasan, Shucheng Yu, Laxima Niure Kandel, Min Song<br>
+            <strong>Conference:</strong> ICC 2023-IEEE International Conference on Communications<br>
+            <strong>Link:</strong> <a href="https://ieeexplore.ieee.org/abstract/document/10278765" target="_blank">Read Paper</a>
         </div>
 
         <div class="publication">
-          <strong>Title:</strong> K-Group Random Channel Hopping (K-RCH) Rendezvous for Cognitive Radio Networks<br>
-          <strong>Authors:</strong> Xiaochan Xue, Shucheng Yu, Min Song, Chunsheng Xin<br>
-          <strong>Conference:</strong> ICC 2021-IEEE International Conference on Communications<br>
-          <strong>Link:</strong> <a href="https://ieeexplore.ieee.org/abstract/document/9500643" target="_blank">Read Paper</a>
+            <strong>Title:</strong> K-Group Random Channel Hopping (K-RCH) Rendezvous for Cognitive Radio Networks<br>
+            <strong>Authors:</strong> Xiaochan Xue, Shucheng Yu, Min Song, Chunsheng Xin<br>
+            <strong>Conference:</strong> ICC 2021-IEEE International Conference on Communications<br>
+            <strong>Link:</strong> <a href="https://ieeexplore.ieee.org/abstract/document/9500643" target="_blank">Read Paper</a>
         </div>
 
         <div class="publication">
-          <strong>Title:</strong> Secrecy performance of hybrid satellite-terrestrial relay systems with hardware impairments<br>
-          <strong>Authors:</strong> Hang Wu, Yulong Zou, Jia Zhu, Xiaochan Xue, Theodoros Tsiftsis<br>
-          <strong>Conference:</strong> ICC 2019-IEEE International Conference on Communications<br>
-          <strong>Link:</strong> <a href="https://ieeexplore.ieee.org/abstract/document/8761231" target="_blank">Read Paper</a>
+            <strong>Title:</strong> Secrecy performance of hybrid satellite-terrestrial relay systems with hardware impairments<br>
+            <strong>Authors:</strong> Hang Wu, Yulong Zou, Jia Zhu, Xiaochan Xue, Theodoros Tsiftsis<br>
+            <strong>Conference:</strong> ICC 2019-IEEE International Conference on Communications<br>
+            <strong>Link:</strong> <a href="https://ieeexplore.ieee.org/abstract/document/8761231" target="_blank">Read Paper</a>
         </div>
 
         <h2>📘 Journal Papers</h2>
@@ -138,23 +199,28 @@
         </div>
 
         <h2>📄 Preprints & Others</h2>
-        
-        <div class="publication">
-          <strong>Title:</strong> Breathing Pattern Detection Using Narrow Sweep Band mmWave FMCW Radar<br>
-          <strong>Authors:</strong> Xiaochan Xue, Saurabh Raman Parkar, Ruoxi Li, Shucheng Yu<br>
-          <strong>Status:</strong> submitted<br>
-          <strong>Link:</strong> <a href="" target="_blank">Read Paper</a>
-      </div>
+        <div class="publication" data-status="submitted">
+            <strong>Title:</strong> Breathing Pattern Detection Using Narrow Sweep Band mmWave FMCW Radar<br>
+            <strong>Authors:</strong> Xiaochan Xue, Saurabh Raman Parkar, Ruoxi Li, Shucheng Yu<br>
+            <strong>Status:</strong> submitted<br>
+            <strong>Link:</strong> <a href="" target="_blank">Read Paper</a>
+        </div>
     </div>
+
+    <!-- Footer -->
+    <footer>
+        &copy; 2023 Xiaochan Xue. All rights reserved. | <a href="http://xueshannon.github.io">Home</a>
+    </footer>
+
     <script>
         // JavaScript to handle button selection
         const buttons = document.querySelectorAll('.nav-button');
         buttons.forEach(button => {
-          button.addEventListener('click', () => {
-            buttons.forEach(btn => btn.classList.remove('active'));
-            button.classList.add('active');
-          });
+            button.addEventListener('click', () => {
+                buttons.forEach(btn => btn.classList.remove('active'));
+                button.classList.add('active');
+            });
         });
-      </script>
+    </script>
 </body>
 </html>
