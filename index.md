@@ -20,7 +20,8 @@ Currently, I work on Integrated Sensing and Communication (ISAC) for real-time, 
 ## News
 
 - **[Jan. 2025]** <span style="color:red;">I am on Job Market NOW! Please contact me if you interest!</span>
-- **[Jan. 2025]** New paper submiited!
+- **[Jan. 2025]** <span style="color:red;">I am open to a POSTDOC position!</span>
+- **[Jan. 2025]** New paper submited!
 - **[Aug. 2024]** I am hired as Lecture Instructor, SIT.
 - **[Aug. 2023]** I received <span style="color:red;">Excellence Doctoral Felowship</span>, SIT
 
