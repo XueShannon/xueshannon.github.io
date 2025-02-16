@@ -35,3 +35,7 @@ Currently, I work on Integrated Sensing and Communication (ISAC) for real-time, 
 {% include_relative _includes/publications.md %}
 
 {% include_relative _includes/services.md %}
+
+## Skills
+- **Engineer:** Matlab, Python, C++, LabView, GNURadio, Shell
+- **Interest:** OBS, Studio One, Game Developer(Unity)
