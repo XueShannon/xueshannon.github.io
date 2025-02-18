@@ -20,7 +20,7 @@ orcid: https://orcid.org/0000-0003-0432-0581
 
 # Images (e.g., your profile picture and your website's favicon) 
 # "favicon" and "favicon_dark" are used for the light and dark modes, respectively. 
-avatar: ./assets/img/XXC.jpg
+avatar: ./assets/img/xxc.jpg
 favicon: ./assets/img/x.png
 favicon_dark: ./assets/img/x.png
 
