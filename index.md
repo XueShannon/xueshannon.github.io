@@ -19,11 +19,12 @@ Currently, I work on Integrated Sensing and Communication (ISAC) for real-time, 
 
 ## News
 
+- **[Feb. 2025]** <span style="color:green;">Selected as CPS (Cyber-Physical Systems) Rising Star, 2025</span>(30/174)
 - **[Jan. 2025]** <span style="color:red;">I am on Job Market NOW! Please contact me if you interest!</span>
 - **[Jan. 2025]** <span style="color:red;">I am open to a POSTDOC position!</span>
 - **[Jan. 2025]** New paper submited!
 - **[Aug. 2024]** I am hired as Lecture Instructor, SIT.
-- **[Aug. 2023]** I received <span style="color:red;">Excellence Doctoral Felowship</span>, SIT
+- **[Aug. 2023]** I received <span style="color:green;">Excellence Doctoral Felowship</span>, SIT
 
 ## Teaching
 
