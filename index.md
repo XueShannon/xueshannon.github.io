@@ -8,7 +8,7 @@ My research focuses on advancing wireless communication by integrating Artificia
 
 Currently, I work on Integrated Sensing and Communication (ISAC) for real-time, contactless applications and privacy-preserving distributed IoT systems using confidential computing. Additionally, I explore innovations in O-RAN networks, focusing on AI/ML workflows, security challenges, and standardization. My goal is to improve the resilience, reliability, and trustworthiness of future wireless networks, ensuring secure and intelligent connectivity.
 
-## Research Interests
+## 🔍 Research Interests
 
 - **Wireless Communication:** 5G, Sub-6G, Next-G, O-RAN, AI-RAN
 - **Integrated Sensing and Communication** Sensing for healthcare, Smart city, UAVs, and Vehicles. Distributed devices in cutting-edge network systems
@@ -17,7 +17,7 @@ Currently, I work on Integrated Sensing and Communication (ISAC) for real-time, 
 
 
 
-## News
+## 🔥 News
 
 - **[Feb. 2025]** <span style="color:green;">Selected as [2025 NSF CPS (Cyber-Physical Systems) Rising Star](https://cps-vo.org/group/CPSRisingStarsWorkshop25)</span> (17%)
 - **[Feb. 2025]** I am invited to give a [Seminar Talk](./assets/files/Enhancing Security and Privacy in Distributed Wireless Networks Through Physical Layer Techniques _ Stevens Institute of Technology.html) at SIT 
@@ -27,7 +27,7 @@ Currently, I work on Integrated Sensing and Communication (ISAC) for real-time, 
 - **[Aug. 2024]** I am hired as Lecture Instructor, SIT.
 - **[Aug. 2023]** I received <span style="color:green;">Excellence Doctoral Fellowship</span>, SIT
 
-## Teaching
+## 📚 Teaching
 
 - **Infomation System Security (On-Site & WebCampus)**
 - **Applied Machine Learning**
