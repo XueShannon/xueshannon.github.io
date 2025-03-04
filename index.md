@@ -20,7 +20,7 @@ Currently, I work on Integrated Sensing and Communication (ISAC) for real-time, 
 ## News
 
 - **[Feb. 2025]** <span style="color:green;">Selected as [2025 NSF CPS (Cyber-Physical Systems) Rising Star](https://cps-vo.org/group/CPSRisingStarsWorkshop25)</span> (17%)
-- **[Feb. 2025]** I am invited to give a [Seminar Talk](/Users/xuexiaochan/xueshannon.github.io/assets/files/Enhancing Security and Privacy in Distributed Wireless Networks Through Physical Layer Techniques _ Stevens Institute of Technology.html) at SIT 
+- **[Feb. 2025]** I am invited to give a [Seminar Talk](files/Enhancing Security and Privacy in Distributed Wireless Networks Through Physical Layer Techniques _ Stevens Institute of Technology.html) at SIT 
 - **[Jan. 2025]** <span style="color:red;">I am on Job Market NOW! Please contact me if you interest!</span>
 - **[Jan. 2025]** <span style="color:red;">I am open to a POSTDOC position!</span>
 - **[Jan. 2025]** New paper submited!
