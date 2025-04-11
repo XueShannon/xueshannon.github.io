@@ -8,7 +8,7 @@ My research focuses on advancing wireless communication by integrating Artificia
 
 Currently, I work on Integrated Sensing and Communication (ISAC) for real-time, contactless applications and privacy-preserving distributed IoT systems using confidential computing. Additionally, I explore innovations in O-RAN networks, focusing on AI/ML workflows, security challenges, and standardization. My goal is to improve the resilience, reliability, and trustworthiness of future wireless networks, ensuring secure and intelligent connectivity.
 
-I received my bachelor's degree from [Jilin University](https://www.jlu.edu.cn/) department of [Communication Engineering](https://dce.jlu.edu.cn/).
+I received my Bachelor's Degree from [Jilin University](https://www.jlu.edu.cn/), department of [Communication Engineering](https://dce.jlu.edu.cn/). Then I finished my Master's Degree at [Stevens Institute of Technology](https://www.stevens.edu/), department of Electrical Engineering. I joined [AISecLab](https://www.stevens.edu/icns-center-for-innovative-computing-and-networked-systems/aiseclab) at SIT, and been supervised by Prof. Shucheng Yu.
 
 ## 🔍 Research Interests
 
