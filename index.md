@@ -8,6 +8,8 @@ My research focuses on advancing wireless communication by integrating Artificia
 
 Currently, I work on Integrated Sensing and Communication (ISAC) for real-time, contactless applications and privacy-preserving distributed IoT systems using confidential computing. Additionally, I explore innovations in O-RAN networks, focusing on AI/ML workflows, security challenges, and standardization. My goal is to improve the resilience, reliability, and trustworthiness of future wireless networks, ensuring secure and intelligent connectivity.
 
+I received my bachelor's degree from [Jilin University](https://www.jlu.edu.cn/) department of Communication Engineering.
+
 ## 🔍 Research Interests
 
 - **Wireless Communication:** 5G, Sub-6G, Next-G, O-RAN, AI-RAN
